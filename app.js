@@ -11,7 +11,7 @@ import * as uuid from "uuid";
 import fs from "node:fs";
 import bcrypt from "bcrypt";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const __dirname = process.cwd();
 const ACTIVE_CODES = new Set();
 if (!fs.existsSync("./memory.txt")) {
